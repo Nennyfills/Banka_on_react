@@ -9,7 +9,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "coverage": "jest --coverage --colors",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    "coveralls": "jest --coverage && cat ./__tests__/coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
