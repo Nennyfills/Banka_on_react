@@ -1,0 +1,67 @@
+{
+  "name": "bankareact",
+  "version": "1.0.0",
+  "description": "Banka upgrade to react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack -- mode production",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "coverage": "jest --coverage --colors",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nennyfills/Banka_on_react.git"
+  },
+  "author": "Nenny Dike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nennyfills/BankaReact/issues"
+  },
+  "homepage": "https://github.com/Nennyfills/BankaReact#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>__tests__/setup/setupEnzyme.js",
+    "testPathIgnorePatterns": [
+      "<rootDir>/__tests__/setup/"
+    ],
+    "collectCoverage": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "coveralls": "^3.0.5",
+    "css-loader": "^3.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "^16.8.6",
+    "redux-mock-store": "^1.5.3",
+    "sinon": "^7.3.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
