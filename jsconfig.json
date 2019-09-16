@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@App/*": ["./src/app/*"],
+      "@Actions/*": ["./src/actions/*"],
+      "@Reducers/*": ["./src/reducers/*"],
+      "@Store/*": ["./src/store/*"],
+      "@Components/*": ["./src/components/*"],
+      "@Auth/*": ["./src/components/auth/*"],
+      "@Login/*": ["./src/components/auth/login/*"],
+      "@Client/*": ["src/components/container/*"],
+      "@Profile/*": ["src/components/container/profile/*"],
+      "@Utilities/*": ["./src/utils/*"],
+      "@Images/*": ["./public/asset/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}

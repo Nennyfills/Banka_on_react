@@ -1,0 +1,169 @@
+/* logo */
+.logo h1 span {
+  color: #92a5de;
+  font-size: 6rem;
+}
+
+.logo h1 {
+  color: #92a5de;
+  font-size: 3rem;
+  text-shadow: 0px 0px 0 rgb(137, 156, 213), 1px 1px 0 rgb(129, 148, 205),
+    2px 2px 0 rgb(120, 139, 196), 3px 3px 0 rgb(111, 130, 187),
+    10px 10px 0 rgb(50, 69, 126), 11px 11px 0 rgb(42, 61, 118),
+    12px 12px 0 rgb(33, 52, 109), 13px 13px 0 rgb(24, 43, 100),
+    14px 14px 0 rgb(15, 34, 91), 15px 15px 0 rgb(7, 26, 83),
+    20px 20px 0 rgb(-37, -18, 39), 21px 21px 20px rgba(0, 0, 0, 1),
+    21px 21px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.logo h1 {
+  text-align: none !important;
+}
+/* Sidebar design */
+.sidemenu {
+  background-color: #201d38;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  padding-top: 1px;
+  overflow: auto;
+  font-size: 1.4rem;
+  font-weight: 500;
+  z-index: 999;
+}
+
+.sidemenu .eachNavlink {
+  display: block;
+  color: #ccc !important;
+  text-decoration: none;
+  padding: 15px 30px;
+  transition: all 0.2s ease-in-out;
+}
+.sidemenu .eachNavlink:hover {
+  background-color: #302d43;
+  padding: 15px 40px 15px 30px;
+}
+
+.sidemenu .eachNavlink:hover:before {
+  color: #f7f7f7;
+  background-color: #302d43;
+  border-left: #d8f0bb 5px solid;
+  padding: 15px 30px 15px 25px;
+}
+
+.sidemenu .Navlink {
+  padding-top: 5rem;
+}
+
+i {
+  color: #92a5de;
+  padding-right: 1rem;
+}
+.logo {
+  padding: 2rem 0 0 4rem;
+}
+/* toolbar design */
+.navDesign {
+  color: rgb(7, 26, 83) !important;
+  background-color: #fff !important;
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  margin: 0;
+  padding-right: none !important;
+}
+
+.userimage img {
+  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.logout {
+  margin-top: 0.5rem !important;
+  color: #302d43 !important;
+  border: none;
+  background-color: white;
+}
+
+.logout:hover {
+  text-decoration: none !important;
+  color: #634eeb !important;
+}
+.welcome span {
+  padding: 0 0.7rem 0 0.7rem !important;
+}
+.welcome {
+  padding-right: -4rem;
+  font-size: 1.3rem;
+  padding-top: 0.9rem !important;
+}
+
+/* footer design */
+
+.footer {
+  margin-top: 9rem;
+  text-align: center;
+}
+.mainFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 3rem;
+  padding-top: 1rem;
+  width: 100%;
+  background-color: #fff;
+  color: rgb(24, 19, 94);
+  text-align: center;
+}
+
+.showerror {
+  background-color: rgb(231, 37, 37);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.showsuccess {
+  background-color: rgb(19, 204, 127);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+/* spinner */
+.spinnerDesign {
+  padding: 0 !important;
+}
+/* back drop design */
+
+.backDrop {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 18.7em;
+  height: 100%;
+  background: rgba(153, 42, 42, 0.3);
+  z-index: 200;
+}
+
+@media only screen and (max-width: 320px) {
+  .sidemenu {
+    top: 6.5rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1824px) {
+  .hamburger {
+    display: none;
+  }
+}
+@media (min-width: 375px) and (max-width: 1024px) {
+  .sidemenu {
+    top: 4.7rem;
+  }
+}
