@@ -1,0 +1,102 @@
+/* sign up and login design */
+.authCol {
+  background-color: rgb(22, 21, 21);
+  min-height: 100vh;
+  color: #fff;
+}
+.authCol p {
+  text-align: center;
+}
+.loginContainer {
+  margin: 2rem 3rem;
+}
+.signupContainer {
+  margin: 3rem;
+}
+.or {
+  display: flex;
+  flex-direction: row;
+  margin: 0.9rem 0;
+  align-items: center;
+}
+.or .bar {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background: #aaa;
+}
+.or span {
+  color: #ccc;
+  padding: 0 1.7rem;
+}
+.link {
+  text-decoration: none;
+  margin: 1rem 0;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.authForm {
+  margin-top: 2rem;
+}
+.primary-btn {
+  border-color: #92a5de !important;
+  border-radius: 2px !important;
+  font-weight: 500 !important;
+  height: 2.7rem !important;
+  background: rgb(50, 69, 126) !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  text-align: center !important;
+  transition: background-color 0.5s !important;
+}
+.primary-btn:hover {
+  background-color: hsl(225, 54%, 72%) !important;
+  color: #fff;
+}
+.secondary-btn {
+  padding: 0.7rem 1rem;
+  display: block;
+  border: 1px solid #f4f4f4;
+  border-radius: 2px;
+  font-weight: 500;
+  background: rgba(0, 81, 255, 0.144);
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+}
+.secondary-btn:hover {
+  border-color: #323233;
+  color: rgb(190, 195, 207);
+}
+.showcase .secondary-btn {
+  width: 50%;
+  margin: auto;
+}
+
+/* slide design */
+
+ .slideCol{
+    color: #ccc;
+ }
+ .showcase-content{
+  align-items: center;
+  margin-top: 22rem;
+  font-size: 3rem;
+ }
+ .showcase{
+  text-align: center;
+  justify-content: center;
+  background: url("../../../public/asset/wallpaper2.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+@media (min-width: 320px) and (max-width: 1022px) {
+  .showcase {
+    display: none;
+  }
+}
