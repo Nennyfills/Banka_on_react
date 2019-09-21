@@ -7,7 +7,7 @@ const initialState = {};
 const middleware = [thunk];
 const enhancers = [];
 
-if ('development') {
+if (process.env.NODE_ENV === 'development') {
   const { __REDUX_DEVTOOLS_EXTENSION__ } = window;
   if (typeof __REDUX_DEVTOOLS_EXTENSION__ === 'function') {
     enhancers.push(__REDUX_DEVTOOLS_EXTENSION__());
