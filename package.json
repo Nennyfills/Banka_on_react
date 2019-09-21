@@ -8,7 +8,7 @@
     "coveralls": "jest --coverage --colors && cat ./tests/coverage/lcov.info | coveralls",
     "lint:js": "eslint '**/*.js' --fix",
     "start:dev": "webpack-dev-server --open --config config/webpack.config.js --env.env=dev && webpack --watch",
-    "start": "rimraf dist/ && node ./server",
+    "start": "node ./server",
     "test": "jest",
     "test:watch": "jest --watch"
   },
