@@ -1,14 +1,15 @@
 {
   "name": "bankareact",
   "version": "1.0.0",
-  "description": "Banka upgrade to react",
+  "description": "Banka upgraded to react",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config config/webpack.config.js --env.env=prod",
     "coveralls": "jest --coverage --colors && cat ./tests/coverage/lcov.info | coveralls",
     "lint:js": "eslint '**/*.js' --fix",
     "start:dev": "webpack-dev-server --open --config config/webpack.config.js --env.env=dev && webpack --watch",
-    "start": "node ./server",
+    "start": "rimraf dist/ && node ./server",
+",
     "test": "jest",
     "test:watch": "jest --watch"
   },
