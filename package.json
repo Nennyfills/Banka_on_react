@@ -1,7 +1,7 @@
 {
   "name": "bankareact",
   "version": "1.0.0",
-  "description": "Banka upgrade to react",
+  "description": "Banka upgraded to react",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config config/webpack.config.js --env.env=prod",
@@ -56,25 +56,20 @@
     "webpack-merge": "^4.2.1",
     "webpack-validator": "^3.0.1"
   },
-  "jest": {
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ],
-    "setupTestFrameworkScriptFile": "<rootDir>__tests__/setup/setupEnzyme.js",
-    "testPathIgnorePatterns": [
-      "<rootDir>/__tests__/setup/"
-    ],
-    "collectCoverage": true
-  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-destructuring": "^7.6.0",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.6.0",
     "@babel/polyfill": "^7.4.4",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^8.2.6",
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "babel-plugin-macros": "^2.6.1",
+    "babel-plugin-module-resolver": "^3.2.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "copy-webpack-plugin": "^5.0.4",
@@ -92,8 +87,10 @@
     "eslint-plugin-react": "^7.14.3",
     "file-loader": "^4.2.0",
     "html-loader": "^0.5.5",
+    "identity-obj-proxy": "^3.0.0",
     "image-webpack-loader": "^5.0.0",
     "jest": "^24.9.0",
+    "jest-junit": "^8.0.0",
     "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
     "react-bootstrap": "^1.0.0-beta.11",

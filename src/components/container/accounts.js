@@ -80,6 +80,7 @@ class Accounts extends Component {
         getErrors: response.message.data.message,
         modal: false,
       });
+      this.myTimer();
     }
     this.setState({
       isLoading: true,
@@ -101,6 +102,7 @@ class Accounts extends Component {
         getErrors: response.message,
         modal: false,
       });
+      this.myTimer();
     }
     this.setState({
       isLoading: true,
