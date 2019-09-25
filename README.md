@@ -6,3 +6,7 @@
     Banka is a light-weight financial system that was built with react, and also powered by Express server at the backend side.this light-weight system allows a 
     client to create their own account and also view theirtransaction whenever they want but must visit a 
     branch to withdraw or make any deposit.
+
+# Links
+
+UI hosted on heruko [Banka](https://banka-on-react.herokuapp.com/).
