@@ -4,9 +4,9 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
 # Banka
-    Banka is a light-weight financial system that was built with react, and also powered by Express server at the backend side.this light-weight system allows a 
-    client to create their own account and also view their transaction whenever they want but must visit a 
-    branch to withdraw or make any deposit.
+    Banka is a light-weight financial system that was built with react, and also powered by Express server at the 
+    backend. This light-weight system allows a client to create their own account and also view their transaction 
+    whenever they want but must visit a branch to withdraw or make any deposit.
 
 # Links
 UI hosted on heruko [Banka](https://banka-on-react.herokuapp.com/).
@@ -22,7 +22,7 @@ To get started with this project a basic knowledge of
 - #### __Bundled with__
 [Webpack.js](https://webpack.js.org)
 
-- #### Compiler with__
+- #### __Compiler with__
 [babel](https://babeljs.io/)
 
 - #### __Style guide__
